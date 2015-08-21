@@ -1,0 +1,250 @@
+<html>
+<head>
+  <html lang ="en">
+  <head>
+    <title>Tourist Map</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/L.Control.MousePosition.css" />
+
+
+
+    <script src="js/jquery-1.4.4.js"></script>
+    <script src = "js/jquery-ui-1.8.12.custom.min.js"></script>
+    <link rel = "stylesheet" href = "css/jquery-ui-1.8.12.custom.css" />
+    <script src = "js/jquery.checkboxtree.js"></script>
+    <link rel = "stylesheet" href = "css/jquery.checkboxtree.css"/>
+
+    <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
+    <script src="js/leaflet.js"></script>
+    <script src = "js/leaflet.groupedlayercontrol.js"></script>
+    <script src="js/L.Control.MousePosition.js"></script>
+    <script src = "js/leaflet.ajax.min.js"></script>
+    <script src = "js/zoomHome.js"></script>
+
+  </head>
+  <body>
+  <style>
+    #container{
+      height: 100%;
+      width:auto;
+    }
+    #topBar{
+      text-align: center;
+      font-family: 'Chelsea Market', Georgia, serif;
+      font-size: 25px;
+    }
+    #topBar > h3{
+      margin-bottom: 5;
+    }
+    #map {
+      position: relative;
+      height: 90%;
+    }
+    #tree1{
+      padding-left: 0;
+    }
+    body {
+            font-family: verdana, arial;
+            font-size: 0.8em;
+        }
+        code {
+            white-space: pre;
+        }
+
+  </style>
+  <head>
+<body>
+  <div id = container>
+  <div id = "topBar">
+    <h3>Banks</h3>
+  </div>
+  <div id="map"></div>
+</div>
+</body>
+<script type="text/javascript">
+
+    var map = new L.Map('map', {
+      center: new L.LatLng(27.7133,85.3210),
+      zoom: 11,
+      zoomAnimation: false,
+      zoomControl:false
+    });
+
+    //addition of the osm layer
+    var osm = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+    map.addLayer(osm);
+
+  // addition of google layer----not working now
+
+    // var ggl = new L.Google();
+    // ggl.addTo(map);
+
+
+
+//addition of the Restaurant layer
+    function pointToLayer(f,ll){
+       var icon = L.icon({
+         iconSize: [20, 20],
+         iconAnchor: [10, 10],
+         popupAnchor:  [1, -24],
+         iconUrl: 'images/bank.png'
+        });
+      return L.marker(ll,
+                  {
+                    riseOnHover: true,
+                    icon: icon
+                  });
+      // var image_name = e.target.feature.properties.Img_tif;
+     }
+    function onEachFeature(f,l){
+      // debugger;
+      if (f.properties.name == undefined) {
+        var content = "Unknown Bank";
+      }
+      else{
+        var content = f.properties.name;
+      }
+
+      l.bindPopup(L.popup({
+          autopan:true,
+          maxWidth: 500
+        }).setContent(content));
+    }
+
+    var myStyle = {
+        "color": "#ff7800",
+        "weight": 5,
+        "opacity": 0.65
+    };
+    function lineEachFeature(f,l){
+      // debugger;
+    }
+    var banks = new L.GeoJSON.AJAX("data/bankPoints.geojson",{
+      pointToLayer: pointToLayer,
+      onEachFeature: onEachFeature
+    });
+    console.log("data loaded");
+
+/*
+    //for layer switcher
+    var BaseLayer  = {
+        "OSM": osm
+    };
+    var groupedOverlays = {
+      "Restaurants": touristPointsData,
+      "Roads": majorRoads
+      // "Roads": pokharaRoads,
+    };
+    var options ={
+      collapsed:false
+    }
+
+    // L.control.layers(BaseLayer, groupedOverlays,options).addTo(map);
+*/
+    var zoomHome = new L.Control.zoomHome();
+    zoomHome.addTo(map);
+
+
+
+
+    //new layercontrol with multiple layers with in a layer
+
+    customLayerSwitcher = L.control(
+      {
+        position: 'topright'
+      });
+
+    customLayerSwitcher.onAdd = function (map) {
+      // create the control container with a particular class name
+      // console.log('creating new dom');
+      this._div = L.DomUtil.create('div', 'queryResult');
+      this._div.innerHTML += '<ul id = "tree1"><li><input id = "all-banks" type="checkbox"><label>Banks</label></li><ul><li><input type="checkbox"><label>Investment Bank</label><ul><li><input type="checkbox"><label>Biratnagar Investment Branch</label></ul></ul><ul><li><input type="checkbox"><label>Laxmi Bank</label><ul><li><input type="checkbox"><label>Bhatbhateni Branch</label><li><input type="checkbox"><label>Hattisar Branch</label><li><input type="checkbox"><label>New Road Branch</label></ul></ul>';
+      // this._div.innerHTML +=  '<ul id = "tree1">';
+      // this._div.innerHTML += '<li><input id = "all-banks" type="checkbox"><label>Banks</label></li>';
+      // this._div.innerHTML +='<ul><li><input type="checkbox"><label>Investment Bank</label>';
+      // this._div.innerHTML += '<ul><li><input type="checkbox"><label>Biratnagar Investment Branch</label></ul></ul>';
+      // this._div.innerHTML += '<ul><li><input type="checkbox"><label>Laxmi Bank</label>';
+      // this._div.innerHTML += '<ul><li><input type="checkbox"><label>Bhatbhateni</label>';
+      // this._div.innerHTML += '<li><input type="checkbox"><label>Hattisar</label>';
+      // this._div.innerHTML += '<li><input type="checkbox"><label>New Road</label></ul>';
+      // this._div.innerHTML += '</ul>';
+      // this._div.innerHTML += '</div>';
+      // this.update();
+      return this._div;
+    };
+    customLayerSwitcher.update = function (value){
+      // debugger;
+      if (value == undefined){
+        // this._div.innerHTML += '<div id="tabs-1">';
+        this._div.innerHTML += '<ul id = "tree1"><li><input id = "all-banks" type="checkbox"><label>Banks</label></li><ul><li><input type="checkbox"><label>Investment Bank</label><ul><li><input type="checkbox"><label>Biratnagar Investment Branch</label></ul></ul><ul><li><input type="checkbox"><label>Laxmi Bank</label><ul><li><input type="checkbox"><label>Bhatbhateni Branch</label><li><input type="checkbox"><label>Hattisar Branch</label><li><input type="checkbox"><label>New Road Branch</label></ul></ul>';
+        // this._div.innerHTML += '<li><input type="checkbox"><label>Banks</label></li>';
+        // this._div.innerHTML +='<ul><li><input type="checkbox"><label>Investment Bank</label>';
+        // this._div.innerHTML += '<ul><li><input type="checkbox"><label>Biratnagar Investment Branch</label></ul></ul>';
+        // this._div.innerHTML += '<ul><li><input type="checkbox"><label>Laxmi Bank</label>';
+        // this._div.innerHTML += '<ul><li><input type="checkbox"><label>Bhatbhateni</label>';
+        // this._div.innerHTML += '<li><input type="checkbox"><label>Hattisar</label>';
+        // this._div.innerHTML += '<li><input type="checkbox"><label>New Road</label></ul>';
+        // this._div.innerHTML += '</ul>';
+        // this._div.innerHTML += '</div>';
+      }
+    else{
+
+    }
+      /*
+      if (value == undefined){
+        this._div.innerHTML += '<form action="">';
+        this._div.innerHTML += '<input type="checkbox" id = "restaurant" name="vehicle" value="all-Banks">Restaurant<br>';
+        this._div.innerHTML += '<input type="checkbox" id = "road" name="vehicle" value="investment">Road';
+        this._div.innerHTML += '</form>';
+      }
+      else{
+      }
+      */
+    }
+
+    customLayerSwitcher.addTo(map);
+  // $("#restaurant").change(function() {
+  //   if(this.checked) {
+  //     var restaurant = new L.GeoJSON.AJAX("data/restaurant.geojson",{
+  //       pointToLayer: pointToLayer,
+  //       onEachFeature: onEachFeature
+  //     });
+  //     restaurant.addTo(map)
+  //   }
+  //   else{
+  //     map.removeLayer(restaurant);
+  //   }
+  //
+  // });
+  // $("#road").change(function() {
+  //   if(this.checked) {
+  //     var majorRoads = new L.GeoJSON.AJAX("data/road.geojson",{
+  //       style: myStyle,
+  //       onEachFeature: lineEachFeature
+  //     }).addTo(map);
+  //
+  //     majorRoads.addTo(map);
+  //   }
+  //
+  // });
+</script>
+<script>
+  $('#tree1').checkboxTree();
+  $(document).ready(function(){
+
+    $("#all-banks").change(function(){
+      if (this.checked){
+        banks.addTo(map)
+        console.log("data displayed");
+      }
+      else{
+        map.removeLayer(banks);
+      }
+    });
+  });
+</script>
+</html>

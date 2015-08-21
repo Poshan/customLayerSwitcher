@@ -1,0 +1,1298 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-08-12T02:46:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/568491800",
+      "properties": {
+        "@id": "node/568491800",
+        "amenity": "restaurant",
+        "cuisine": "regional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9481837,
+          28.2439071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/568514900",
+      "properties": {
+        "@id": "node/568514900",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Hungry Eye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9575326,
+          28.207945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/568542788",
+      "properties": {
+        "@id": "node/568542788",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Elegant View"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9566693,
+          28.2105075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/973821284",
+      "properties": {
+        "@id": "node/973821284",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Blue Diamond Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9629221,
+          28.2042418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1292131580",
+      "properties": {
+        "@id": "node/1292131580",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9587527,
+          28.2163366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1322154033",
+      "properties": {
+        "@id": "node/1322154033",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9445834,
+          28.200355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1322169363",
+      "properties": {
+        "@id": "node/1322169363",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9460428,
+          28.2009032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1352860978",
+      "properties": {
+        "@id": "node/1352860978",
+        "amenity": "restaurant",
+        "name": "Pokhara Steak House",
+        "website": "http://www.pokharasteakhouse.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.957652,
+          28.2141446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1366435128",
+      "properties": {
+        "@id": "node/1366435128",
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "name": "Saru Khaja Ghar",
+        "name:en": "Saru Local Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9559062,
+          28.212329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1366436403",
+      "properties": {
+        "@id": "node/1366436403",
+        "amenity": "restaurant",
+        "name": "Sun Welcome Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9583227,
+          28.2154326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1366438445",
+      "properties": {
+        "@id": "node/1366438445",
+        "amenity": "restaurant",
+        "name": "Satcina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9601708,
+          28.2133809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555308326",
+      "properties": {
+        "@id": "node/1555308326",
+        "amenity": "restaurant",
+        "name": "Chanji Garden Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9558786,
+          28.2207926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555308328",
+      "properties": {
+        "@id": "node/1555308328",
+        "amenity": "restaurant",
+        "name": "Freedom Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9556667,
+          28.2212274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555308331",
+      "properties": {
+        "@id": "node/1555308331",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pokhara Pizza House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9587201,
+          28.2165682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555308333",
+      "properties": {
+        "@id": "node/1555308333",
+        "amenity": "restaurant",
+        "name": "Lemongrass Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9585267,
+          28.2187489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555308347",
+      "properties": {
+        "@id": "node/1555308347",
+        "amenity": "restaurant",
+        "name": "Rice Bowl Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9569595,
+          28.2097796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555308358",
+      "properties": {
+        "@id": "node/1555308358",
+        "amenity": "restaurant",
+        "name": "Viewpoint Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9525221,
+          28.221615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1654131189",
+      "properties": {
+        "@id": "node/1654131189",
+        "amenity": "restaurant",
+        "name": "Chatamari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9878993,
+          28.2265149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1654131190",
+      "properties": {
+        "@id": "node/1654131190",
+        "amenity": "restaurant",
+        "name": "Coffee Culture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9872019,
+          28.2242273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2086875765",
+      "properties": {
+        "@id": "node/2086875765",
+        "amenity": "restaurant",
+        "name": "Tea Time Bamboostan",
+        "name:en": "Tea Time Bamboostan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9572921,
+          28.211885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2086912183",
+      "properties": {
+        "@id": "node/2086912183",
+        "amenity": "restaurant",
+        "name": "Mike's Restaurant",
+        "name:en": "Mike's Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9554685,
+          28.2121541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2087062615",
+      "properties": {
+        "@id": "node/2087062615",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "KTM Thakali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9591156,
+          28.2081961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2087062784",
+      "properties": {
+        "@id": "node/2087062784",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Jhamgat Tass & Tandoori"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9576963,
+          28.2083544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2087062785",
+      "properties": {
+        "@id": "node/2087062785",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Parikar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9580377,
+          28.2085444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2087062786",
+      "properties": {
+        "@id": "node/2087062786",
+        "amenity": "restaurant",
+        "name": "Moondance Restaurant and Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9575388,
+          28.2080245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2087062791",
+      "properties": {
+        "@id": "node/2087062791",
+        "amenity": "restaurant",
+        "name": "Byanjan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9570944,
+          28.2089798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2297964914",
+      "properties": {
+        "@id": "node/2297964914",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9787008,
+          28.1994595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2469797676",
+      "properties": {
+        "@id": "node/2469797676",
+        "amenity": "restaurant",
+        "name": "Peace Dragon Restaurant",
+        "source": "http://www.peacedragonlodge.com/contact-us.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9471958,
+          28.2002013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2470810071",
+      "properties": {
+        "@id": "node/2470810071",
+        "amenity": "restaurant",
+        "name": "Hotel The Open Air",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9456857,
+          28.2055435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2470812226",
+      "properties": {
+        "@id": "node/2470812226",
+        "amenity": "restaurant",
+        "name": "Typical Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9476617,
+          28.2068258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2470837755",
+      "properties": {
+        "@id": "node/2470837755",
+        "amenity": "restaurant",
+        "name": "Laughing Buddha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.95832,
+          28.2148895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2470837758",
+      "properties": {
+        "@id": "node/2470837758",
+        "amenity": "restaurant",
+        "name": "Maya Pub & Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9572635,
+          28.2107376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2470934301",
+      "properties": {
+        "@id": "node/2470934301",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Cafe Concerto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9604822,
+          28.2060012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2476639972",
+      "properties": {
+        "@id": "node/2476639972",
+        "amenity": "restaurant",
+        "name": "Apple Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9889263,
+          28.2460338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2481347311",
+      "properties": {
+        "@id": "node/2481347311",
+        "addr:street": "Bhim Kali Patan",
+        "amenity": "restaurant",
+        "cuisine": "Potato_Choops",
+        "name": "Chop House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9888856,
+          28.2419431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2555552074",
+      "properties": {
+        "@id": "node/2555552074",
+        "addr:city": "Pokhara",
+        "addr:housename": "Kotee Home Hotel",
+        "addr:postcode": "33700",
+        "addr:street": "Baidam Road",
+        "amenity": "restaurant",
+        "capacity": "80",
+        "cuisine": "Chinese,_Indian,_Italian, Continental, Nepali",
+        "name": "The Red Tomato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9571735,
+          28.2096319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2632354512",
+      "properties": {
+        "@id": "node/2632354512",
+        "amenity": "restaurant",
+        "name": "Lotus Corner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9556402,
+          28.2216648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2632355330",
+      "properties": {
+        "@id": "node/2632355330",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "name": "Merhaba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9583722,
+          28.2196015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2805430664",
+      "properties": {
+        "@id": "node/2805430664",
+        "amenity": "restaurant",
+        "name": "Local BBQ",
+        "name:zh": "本地烤肉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9595337,
+          28.2135811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2805465034",
+      "properties": {
+        "@id": "node/2805465034",
+        "amenity": "restaurant",
+        "name": "Asia Tea House",
+        "name:zh": "亚洲餐厅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.957306,
+          28.211205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2805479997",
+      "properties": {
+        "@id": "node/2805479997",
+        "addr:street": "Baidam Road",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name:en": "The China Town",
+        "name:zh": "唐人餐厅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9571338,
+          28.2116987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2805500021",
+      "properties": {
+        "@id": "node/2805500021",
+        "amenity": "restaurant",
+        "name": "Everest Steak House",
+        "name:zh": "珠峰牛排"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9586182,
+          28.2140141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3067775140",
+      "properties": {
+        "@id": "node/3067775140",
+        "addr:city": "pokhara",
+        "addr:street": "Baidam Road",
+        "amenity": "restaurant",
+        "capacity": "200",
+        "cuisine": "international",
+        "name": "Fewa lake restaurant",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9649996,
+          28.2042583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3151985692",
+      "properties": {
+        "@id": "node/3151985692",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Arrival avenue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9643369,
+          28.2044094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3166136485",
+      "properties": {
+        "@id": "node/3166136485",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Aankhi Jhyal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9614439,
+          28.2057081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3397740260",
+      "properties": {
+        "@id": "node/3397740260",
+        "amenity": "restaurant",
+        "name": "Maili Bhanchha Ghar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9652571,
+          28.2056321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3469211654",
+      "properties": {
+        "@id": "node/3469211654",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Lanhua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9600844,
+          28.2063994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3471413450",
+      "properties": {
+        "@id": "node/3471413450",
+        "amenity": "restaurant",
+        "name": "Taal Rest-O-Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9580461,
+          28.2192418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3476013154",
+      "properties": {
+        "@id": "node/3476013154",
+        "amenity": "restaurant",
+        "name": "Fewa Corner Rooftop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9548243,
+          28.2217187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3480361309",
+      "properties": {
+        "@id": "node/3480361309",
+        "amenity": "restaurant",
+        "name": "Bandipur Spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9585228,
+          28.2140961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3483518260",
+      "properties": {
+        "@id": "node/3483518260",
+        "amenity": "restaurant",
+        "name": "Anchu Khaja Ghar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9502473,
+          28.2417006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3483520595",
+      "properties": {
+        "@id": "node/3483520595",
+        "amenity": "restaurant",
+        "name": "Anusha & Alisha Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9500209,
+          28.2388768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3485754212",
+      "properties": {
+        "@id": "node/3485754212",
+        "addr:street": "Bangladi Marg",
+        "amenity": "restaurant",
+        "name": "Asbin",
+        "phone": "061-464196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9580912,
+          28.2193646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3485754316",
+      "properties": {
+        "@id": "node/3485754316",
+        "addr:street": "Bangladi Marg",
+        "amenity": "restaurant",
+        "name": "Asbin",
+        "phone": "061-464196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9580912,
+          28.2193646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3486849373",
+      "properties": {
+        "@id": "node/3486849373",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9479953,
+          28.242948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3488089622",
+      "properties": {
+        "@id": "node/3488089622",
+        "amenity": "restaurant",
+        "name": "Akatsuki Japanese Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9625574,
+          28.2067242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3490227410",
+      "properties": {
+        "@id": "node/3490227410",
+        "amenity": "restaurant",
+        "name": "K. C. Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9495676,
+          28.200761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3490227413",
+      "properties": {
+        "@id": "node/3490227413",
+        "amenity": "restaurant",
+        "name": "Don't Pass Me By"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9692694,
+          28.1979443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3521349634",
+      "properties": {
+        "@id": "node/3521349634",
+        "amenity": "restaurant",
+        "name": "Black & White"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9612048,
+          28.2059294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3521349645",
+      "properties": {
+        "@id": "node/3521349645",
+        "amenity": "restaurant",
+        "name": "Love Kush"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.960604,
+          28.2060485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3521349647",
+      "properties": {
+        "@id": "node/3521349647",
+        "amenity": "restaurant",
+        "name": "Pandey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9623175,
+          28.206364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3521349650",
+      "properties": {
+        "@id": "node/3521349650",
+        "amenity": "restaurant",
+        "name": "Pokhara Thali Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9616062,
+          28.2060205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3634990902",
+      "properties": {
+        "@id": "node/3634990902",
+        "amenity": "restaurant",
+        "name": "Fewa Crossroads"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9573032,
+          28.2114094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3634990911",
+      "properties": {
+        "@id": "node/3634990911",
+        "amenity": "restaurant",
+        "name": "Peace Restaurant & Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9572785,
+          28.212115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3634990912",
+      "properties": {
+        "@id": "node/3634990912",
+        "amenity": "restaurant",
+        "name": "Punjabi Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9570209,
+          28.2117876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3634990916",
+      "properties": {
+        "@id": "node/3634990916",
+        "amenity": "restaurant",
+        "name": "Thakali Bhancha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9573084,
+          28.2114717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3634990917",
+      "properties": {
+        "@id": "node/3634990917",
+        "amenity": "restaurant",
+        "name": "Thakali Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9574005,
+          28.2129174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3634990923",
+      "properties": {
+        "@id": "node/3634990923",
+        "amenity": "restaurant",
+        "name": "Zorba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9572948,
+          28.2124796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3635819233",
+      "properties": {
+        "@id": "node/3635819233",
+        "amenity": "restaurant",
+        "name": "Double \"O\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9572817,
+          28.2111279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3635819238",
+      "properties": {
+        "@id": "node/3635819238",
+        "amenity": "restaurant",
+        "name": "Once Upon a Time"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9571907,
+          28.210346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654244",
+      "properties": {
+        "@id": "node/3637654244",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Dragon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9568127,
+          28.2101257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654245",
+      "properties": {
+        "@id": "node/3637654245",
+        "amenity": "restaurant",
+        "name": "Fewa Fusion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9568271,
+          28.2105068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654247",
+      "properties": {
+        "@id": "node/3637654247",
+        "amenity": "restaurant",
+        "name": "Fewa Paradise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9568734,
+          28.2097683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654255",
+      "properties": {
+        "@id": "node/3637654255",
+        "amenity": "restaurant",
+        "name": "Madhushala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9569585,
+          28.2114413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654256",
+      "properties": {
+        "@id": "node/3637654256",
+        "amenity": "restaurant",
+        "name": "Nepali Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9575826,
+          28.2077464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654257",
+      "properties": {
+        "@id": "node/3637654257",
+        "amenity": "restaurant",
+        "name": "Paradise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9568906,
+          28.2102578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654259",
+      "properties": {
+        "@id": "node/3637654259",
+        "amenity": "restaurant",
+        "name": "Rainbow Restauran & Royal Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9576143,
+          28.2076702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637654274",
+      "properties": {
+        "@id": "node/3637654274",
+        "amenity": "restaurant",
+        "name": "20 Fourteen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9568689,
+          28.210085
+        ]
+      }
+    }
+  ]
+}
